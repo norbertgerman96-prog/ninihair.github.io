@@ -33,12 +33,18 @@ header a{
     background-image: url('kep1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center -400px; 
+    background-position: 50% 20%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-position: 50% 70%;
+  }
 }
 .hero h1{
     font-family: 'Playfair Display', serif;
